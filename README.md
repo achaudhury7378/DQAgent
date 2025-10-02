@@ -6,7 +6,7 @@
 - **Spelling mistakes and typos**: Misspelled words in text fields
 - **Incorrect values**: Wrong information due to human error or system issues
 - **Transcription errors**: Mistakes during manual data entry
-- **Data drift and decay**: Information becoming inaccurate over time[4]
+- **Data drift and decay**: Information becoming inaccurate over time
 - **Factual errors**: Contradictory information across systems
 
 ### **2. Completeness Problems**
@@ -17,12 +17,12 @@
 
 ### **3. Consistency Issues**
 - **Format inconsistency**: Same data type in different formats
-  - Country names: "United States" vs "USA" vs "US" vs "U.S.A."[10][11]
-  - Date formats: "DD-MM-YYYY" vs "MM/DD/YYYY" vs "YYYY-MM-DD"[9]
+  - Country names: "United States" vs "USA" vs "US" vs "U.S.A."
+  - Date formats: "DD-MM-YYYY" vs "MM/DD/YYYY" vs "YYYY-MM-DD"
   - Phone numbers: "(555) 123-4567" vs "555-123-4567" vs "5551234567"
-- **Unit inconsistency**: Weight in kilograms vs pounds[9]
+- **Unit inconsistency**: Weight in kilograms vs pounds
 - **Case sensitivity variations**: "Female"/"FEMALE"/"female" vs "F"/"f"
-- **Abbreviation inconsistency**: "Street" vs "St." vs "St"[12]
+- **Abbreviation inconsistency**: "Street" vs "St." vs "St"
 
 ### **4. Uniqueness and Duplication Issues**
 - **Exact duplicates**: Identical records across the dataset
@@ -35,9 +35,9 @@
 ### **5. Geographic Data Issues**
 - **Country code inconsistencies**: 
   - Alpha-2 codes: "US" vs "USA"
-  - Full names vs abbreviations: "Germany" vs "DE" vs "Deutschland"[11]
+  - Full names vs abbreviations: "Germany" vs "DE" vs "Deutschland"
   - Legacy vs current names: "Yugoslavia" vs current Balkan countries
-- **State/Province variations**: "California" vs "CA" vs "Calif."[14][12]
+- **State/Province variations**: "California" vs "CA" vs "Calif."
 - **Address format inconsistencies**: Different address line structures
 - **Postal code variations**: ZIP+4 vs 5-digit ZIP codes
 
@@ -76,7 +76,7 @@
 ## **Structural and Relationship Issues**
 
 ### **11. Referential Integrity Problems**
-- **Orphaned records**: Child records without corresponding parent records[23][24]
+- **Orphaned records**: Child records without corresponding parent records
 - **Missing foreign key references**: References to non-existent master data
 - **Broken relationships**: Links between tables that no longer exist
 - **Cascade deletion failures**: Dependent records not properly handled
@@ -96,7 +96,7 @@
 - **Synchronization delays**: Data not updated simultaneously across systems
 
 ### **14. Data Lifecycle Issues**
-- **Orphaned data from deleted entities**: Data remaining after parent deletion[23][28]
+- **Orphaned data from deleted entities**: Data remaining after parent deletion
 - **Retention policy violations**: Data kept beyond required periods
 - **Archive inconsistencies**: Improper data archiving or retrieval
 - **Zombie data**: Data from terminated employees or closed accounts
@@ -118,7 +118,7 @@
 
 ### **17. Data Integration Problems**
 - **Merge conflicts**: Conflicting data during system integration
-- **Transformation errors**: Mistakes during data processing[31]
+- **Transformation errors**: Mistakes during data processing
 - **Encoding issues**: Character encoding problems across systems
 - **Data lineage breaks**: Lost track of data source and transformations
 
